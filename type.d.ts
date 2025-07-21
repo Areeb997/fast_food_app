@@ -105,3 +105,9 @@ interface GetMenuParams {
     category: string;
     query: string;
 }
+interface ProfileItemProps{
+    name : string,
+    email : string,
+    phone : string,
+    Address : string
+}

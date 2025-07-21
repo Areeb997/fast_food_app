@@ -1,6 +1,7 @@
 import { appwriteConfig } from '@/lib/appwrite'
 import { useCartStore } from '@/store/cart.store'
 import { MenuItem } from '@/type'
+import { router } from 'expo-router'
 import React from 'react'
 import { Image, Platform, Text, TouchableOpacity } from 'react-native'
 

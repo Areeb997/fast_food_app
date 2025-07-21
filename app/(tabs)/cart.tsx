@@ -1,6 +1,6 @@
 import CartItem from '@/components/CartItem'
 import Custombutton from '@/components/CustomButton'
-import CustomHeader from '@/components/Customheader'
+import CustomHeader from '@/components/CustomHeader'
 import { useCartStore } from '@/store/cart.store'
 import { PaymentInfoStripeProps } from '@/type'
 import cn from 'clsx'

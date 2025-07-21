@@ -117,3 +117,15 @@ export const getCategory = async ()=>{
         throw new Error (e as string)   
     }
 }
+
+// export const getProductDetails = async({id})=>{
+//     try {
+//         const product = await database.getDocument(
+//             appwriteConfig.databaseId,
+//             appwriteConfig.MenuCollectionId,
+//             id
+//         )
+//     } catch (e) {
+//         throw new Error (e as string)
+//     }
+// }
